@@ -1,5 +1,45 @@
 # LMS-Project
 
+A minimal Learning Management System (LMS) demo and project artifacts for the "Development and Deployment of a Learning Management System" assessment.
+
+Prerequisites
+- Node.js (LTS) installed and available on PATH
+- Git (for version control)
+
+Quickstart (PowerShell)
+1. Open PowerShell and go to the project folder:
+
+```powershell
+cd C:\Users\sthaa\LMS-Project
+```
+
+2. Install dependencies and start the demo server:
+
+```powershell
+npm install
+npm start
+```
+
+3. Open the demo in your browser:
+
+- http://localhost:3000  (index)
+- http://localhost:3000/login  (login page)
+
+Project layout
+- `public/` — static demo pages (index.html, login.html)
+- `server.js` — minimal Express server to serve `public/`
+- `docs/` — project plan, Gantt chart, presentation outline and report drafts
+
+Branches
+- `main` — primary branch
+- `develop` — integration branch (create PRs into this branch)
+- `feature/*` — feature branches (e.g. `feature/login-page`)
+
+Add screenshots
+- Save screenshots to `docs/screenshots/` (e.g., `login_page.png`, `github_commits.png`) and commit them for inclusion in the final report.
+
+If you need help running the server or generating the final report/PPTX, tell me what step you want me to do next.
+
 This repository contains the demo and project artifacts for the "Development and Deployment of a Learning Management System (LMS) for Online Education" individual assessment.
 
 Contents:
